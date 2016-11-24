@@ -1,6 +1,6 @@
-export default class Library {
+export default class Lantern {
   constructor() {
-    this._name = 'Library';
+    this._name = 'Lantern';
   }
   get name() {
     return this._name;
