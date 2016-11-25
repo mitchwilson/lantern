@@ -3,6 +3,6 @@ export default class Memory {
     this._name = 'Memory';
   }
   get size() {
-    return this.performance.memory.usedJSHeapSize;
+    return window.performance.memory.usedJSHeapSize;
   }
 }
