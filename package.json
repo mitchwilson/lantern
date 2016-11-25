@@ -5,6 +5,7 @@
   "main": "dist/lantern.js",
   "scripts": {
     "build": "webpack --config webpack.config.js && webpack --config webpack.config.min.js",
+    "clean": "rm -rf dist",
     "dev": "webpack --progress --colors --watch",
     "test": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
   },
