@@ -1,7 +1,7 @@
 {
-  "name": "webpack-library-starter",
-  "version": "0.1.3",
-  "description": "Produce universal library with webpack and es6",
+  "name": "lantern",
+  "version": "0.1.0",
+  "description": "Diagnose memory issues in Chrome",
   "main": "dist/lantern.js",
   "scripts": {
     "build": "webpack --mode=build",
