@@ -20,7 +20,7 @@ var config = {
   output: {
     path: __dirname + '/dist',
     filename: outputFile,
-    library: libraryName,
+    library: 'Lantern',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
