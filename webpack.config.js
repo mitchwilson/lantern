@@ -29,7 +29,10 @@ var config = {
       {
         test: /(\.jsx|\.js)$/,
         loader: 'babel',
-        exclude: /(node_modules|bower_components)/
+        exclude: /(node_modules|bower_components|demo)/,
+        query: {
+          presets: ['es2015']
+        }
       },
       {
         test: /(\.jsx|\.js)$/,

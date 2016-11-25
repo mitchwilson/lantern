@@ -8,7 +8,7 @@ export default class Lantern {
   get name() {
     return this._name;
   }
-  get jsHeapSize() {
-    return this._memory.size;
+  get usedJSHeapSize() {
+    return this._memory.usedJSHeapSize;
   }
 }

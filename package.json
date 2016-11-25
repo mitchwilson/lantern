@@ -4,8 +4,8 @@
   "description": "Diagnose memory issues in Chrome",
   "main": "dist/lantern.js",
   "scripts": {
-    "build": "webpack --mode=build",
-    "dev": "webpack --progress --colors --watch --mode=dev",
+    "build": "webpack --mode=build && cp dist/lantern.js demo/requirejs",
+    "dev": "webpack --progress --colors --watch --mode=dev && cp dist/lantern.js demo/requirejs",
     "test": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
   },
   "devDependencies": {
