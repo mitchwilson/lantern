@@ -22,7 +22,7 @@ var config = {
     filename: outputFile,
     library: 'Lantern',
     libraryTarget: 'umd',
-    umdNamedDefine: true
+    umdNamedDefine: false
   },
   module: {
     loaders: [
