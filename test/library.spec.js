@@ -1,19 +1,19 @@
 import chai from 'chai';
-import Library from '../lib/library.js';
+import Lantern from '../dist/lantern.js';
 
 chai.expect();
 
 const expect = chai.expect;
 
-let lib;
+let lantern;
 
-describe('Given an instance of my library', function () {
+describe('Given an instance of my Lantern', function () {
   before(function () {
-    lib = new Library();
+    lantern = new Lantern();
   });
   describe('when I need the name', function () {
     it('should return the name', () => {
-      expect(lib.name).to.be.equal('Library');
+      expect(lantern.name).to.be.equal('Lantern');
     });
   });
 });
