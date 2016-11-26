@@ -1,8 +1,8 @@
 import Memory from 'Memory';
 
 export default class Lantern {
-  constructor() {
-    this._memory = new Memory();
+  constructor(global) {
+    this._memory = new Memory(global);
     this._name = 'Lantern';
   }
   get name() {

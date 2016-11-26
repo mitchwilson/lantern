@@ -1,8 +1,9 @@
 export default class Memory {
-  constructor() {
+  constructor(global) {
+    this._global = global;
     this._name = 'Memory';
   }
   get usedJSHeapSize() {
-    return window.performance.memory.usedJSHeapSize;
+    return this._global.performance.memory.usedJSHeapSize;
   }
 }
