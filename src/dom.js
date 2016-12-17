@@ -1,6 +1,6 @@
-export default Class Dom {
+export default class Dom {
   constructor(global) {
     this._global = global;
-    this._name = "Dom";
+    this._name = 'Dom';
   }
 }

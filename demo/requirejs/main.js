@@ -1,6 +1,3 @@
-require.config({
-  baseUrl: '../../dist'
-});
 require(['lantern'], function(Lantern) {
   var lantern = new Lantern.default(window);
   console.log({
