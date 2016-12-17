@@ -1,0 +1,20 @@
+{
+  "name": "vanillajs",
+  "homepage": "https://github.com/mitchwilson/lantern",
+  "authors": [
+    "Mitch Wilson <mitchwilson1969@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lantern": "../../dist/lantern.js"
+  }
+}
