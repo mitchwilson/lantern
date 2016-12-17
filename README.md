@@ -1,6 +1,10 @@
 # Lantern
 
-JavaScript library for illuminating memory issues in Chrome.
+Version 0.1.0
+
+Will be a JavaScript library for illuminating memory issues in Chrome.
+
+Getting started now building out project structure.
 
 ## Usage
 
