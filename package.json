@@ -5,7 +5,7 @@
   "main": "dist/lantern.js",
   "scripts": {
     "build": "webpack --config webpack.config.js && webpack --config webpack.config.min.js",
-    "build-demo": "cp dist/lantern.js demo/requirejs/lantern.js",
+    "build-demo": "cd demo/requirejs && bower install && cd ../vanillajs && bower install",
     "clean": "rm -rf dist",
     "dev": "webpack --progress --colors --watch",
     "test": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
