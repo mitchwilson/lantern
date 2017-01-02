@@ -20,7 +20,10 @@
     "chai": "3.4.1",
     "eslint": "1.7.2",
     "eslint-loader": "1.1.0",
+    "jsdom": "^9.9.1",
     "mocha": "2.3.4",
+    "phantom": "^3.2.1",
+    "phantomjs": "^2.1.7",
     "webpack": "1.12.9",
     "yargs": "3.32.0"
   },
